@@ -1,0 +1,97 @@
+Wed Oct  1 14:16:15 +05 2025: Starting automated model retraining...
+Wed Oct  1 14:16:15 +05 2025: Running GBM retraining...
+GBM Validation Accuracy: 0.99
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        68
+           1       1.00      0.80      0.89         5
+
+    accuracy                           0.99        73
+   macro avg       0.99      0.90      0.94        73
+weighted avg       0.99      0.99      0.99        73
+
+GBM model retrained and saved.
+GBM retraining successful
+Wed Oct  1 14:16:19 +05 2025: Terrain or flood mask data not found, skipping U-Net retraining
+Wed Oct  1 14:16:19 +05 2025: Automated retraining completed.
+Wed Oct  1 14:29:47 +05 2025: Starting automated model retraining...
+Wed Oct  1 14:29:47 +05 2025: Running GBM retraining...
+GBM Validation Accuracy: 0.99
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        68
+           1       1.00      0.80      0.89         5
+
+    accuracy                           0.99        73
+   macro avg       0.99      0.90      0.94        73
+weighted avg       0.99      0.99      0.99        73
+
+GBM model retrained and saved.
+GBM retraining successful
+Wed Oct  1 14:29:50 +05 2025: Running U-Net retraining...
+Epoch 1, Train Loss: 1.8159998655319214
+Epoch 2, Train Loss: 1.2652234545385e-05
+Epoch 3, Train Loss: 1.717539177548133e-08
+Epoch 4, Train Loss: 1.4010785587270647e-11
+Epoch 5, Train Loss: 3.3587336047586095e-15
+Epoch 6, Train Loss: 1.999193823174718e-19
+Epoch 7, Train Loss: 3.465406792068013e-24
+Epoch 8, Train Loss: 2.351253817938482e-29
+Epoch 9, Train Loss: 6.648257978830627e-35
+Epoch 10, Train Loss: 8.66002450952737e-41
+U-Net Validation Loss: 358.2629, Accuracy: 0.2100
+U-Net model retrained and saved.
+U-Net retraining successful
+Wed Oct  1 14:29:56 +05 2025: Automated retraining completed.
+Wed Oct  1 14:31:35 +05 2025: Starting automated model retraining...
+Wed Oct  1 14:31:35 +05 2025: Running GBM retraining...
+GBM Validation Accuracy: 0.99
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        68
+           1       1.00      0.80      0.89         5
+
+    accuracy                           0.99        73
+   macro avg       0.99      0.90      0.94        73
+weighted avg       0.99      0.99      0.99        73
+
+GBM model retrained and saved.
+GBM retraining successful
+Wed Oct  1 14:31:38 +05 2025: Running U-Net retraining...
+Epoch 1, Train Loss: 0.2641, Val Loss: 0.5068, Val Acc: 0.9367
+Epoch 2, Train Loss: 0.0382, Val Loss: 0.1696, Val Acc: 0.9367
+Epoch 3, Train Loss: 0.0431, Val Loss: 0.2362, Val Acc: 0.9367
+Epoch 4, Train Loss: 0.0324, Val Loss: 0.1641, Val Acc: 0.9367
+Early stopping at epoch 4
+U-Net training completed. Best validation accuracy: 0.9367
+U-Net model retrained and saved.
+U-Net retraining successful
+Wed Oct  1 14:31:45 +05 2025: Automated retraining completed.
+Sun Oct  5 02:00:01 +05 2025: Starting automated model retraining...
+Sun Oct  5 02:00:01 +05 2025: Running GBM retraining...
+GBM Validation Accuracy: 0.99
+Classification Report:
+               precision    recall  f1-score   support
+
+           0       0.99      1.00      0.99        68
+           1       1.00      0.80      0.89         5
+
+    accuracy                           0.99        73
+   macro avg       0.99      0.90      0.94        73
+weighted avg       0.99      0.99      0.99        73
+
+GBM model retrained and saved.
+GBM retraining successful
+Sun Oct  5 02:00:10 +05 2025: Running U-Net retraining...
+Epoch 1, Train Loss: 0.1871, Val Loss: 0.3893, Val Acc: 0.9367
+Epoch 2, Train Loss: 0.0415, Val Loss: 0.1867, Val Acc: 0.9367
+Epoch 3, Train Loss: 0.0541, Val Loss: 0.2399, Val Acc: 0.9367
+Epoch 4, Train Loss: 0.0492, Val Loss: 0.2307, Val Acc: 0.9367
+Early stopping at epoch 4
+U-Net training completed. Best validation accuracy: 0.9367
+U-Net model retrained and saved.
+U-Net retraining successful
+Sun Oct  5 02:00:17 +05 2025: Automated retraining completed.

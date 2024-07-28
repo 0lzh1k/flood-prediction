@@ -1,0 +1,11 @@
+# Cron job setup for automated model retraining
+# Add this to your crontab (run: crontab -e)
+
+# Retrain models every Sunday at 2 AM
+0 2 * * 0 /home/alerman/projects/bena_projects/flood_pred/scripts/schedule_retraining.sh
+
+# Or retrain daily at midnight (more frequent updates)
+# 0 0 * * * /home/alerman/projects/bena_projects/flood_pred/scripts/schedule_retraining.sh
+
+# Or retrain every 6 hours for real-time systems
+# 0 */6 * * * /home/alerman/projects/bena_projects/flood_pred/scripts/schedule_retraining.sh
